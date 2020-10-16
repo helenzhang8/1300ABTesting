@@ -1,6 +1,6 @@
 /* Feel free to modify anything in this file.*/
 html body {
-	background-color: #ecedd5;
+	background-color: #f0efeb;
 }
 
 header {
@@ -13,22 +13,7 @@ header {
 	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-
-.vendor-wrapper-A {
-	justify-content: left;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	background-color: pink;
-}
-
-.vendor-wrapper-B {
-	justify-content: left;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: blue;
 }
 
 .vendor-photo {
