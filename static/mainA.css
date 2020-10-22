@@ -17,12 +17,10 @@ header {
 	flex: 0 1 auto;
 }
 
-.vendor-wrapper {
-	justify-content: center;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #b7b7a4;
+.row{
+	display: flex;
+	align-items: stretch;
+	text-align: center;
 }
 
 .vendor-photo {
@@ -41,6 +39,7 @@ header {
 
 .col {
 	background-color: #b7b7a4;
+	text-align: center;
 	border: solid;
 	border-color: #ffffff;
 	border-width: thick;
