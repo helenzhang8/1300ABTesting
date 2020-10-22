@@ -1,11 +1,39 @@
 /* Feel free to modify anything in this file.*/
 html body {
-	background-color: #eddcd2;
+	background-color: #f0efeb;
 }
 
 header {
-	padding-left: 40px;
-	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.header-photo {
+	width: 100%;
+	max-width: 1000px;
+	min-height: auto;
+	flex: 0 1 auto;
+}
+
+.row {
+	display: flex;
+	align-items: stretch;
+	text-align: center;
+}
+
+#col{
+	background-color: #b7b7a4;
+	text-align: center;
+	border: solid;
+	border-color: #f0efeb;
+	border-width: thick;
+}
+
+h3 {
+	font-size: 12px;
+	color: #fff1e6;
 }
 
 .vendor-wrapper {
@@ -13,21 +41,25 @@ header {
 	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #ddbea9;
+	background-color: #b7b7a4;
 }
 
 .vendor-photo {
-	max-width: 200px;
-	max-height: 150px;
-	padding-right: 20px;
+	height: 150px;
+	text-align: center;
 }
 
 .vendor-book-button {
 	font-size: 2em;
+
 }
 
 .content-pane {
   padding: 40px;
+}
+
+#cart-wrapper {
+	text-align: center;
 }
 
 .fa-stack[data-count]:after{
@@ -40,7 +72,7 @@ header {
   border-radius: 999px;
   line-height: .75em;
   color: white;
-  color: #DF0000;
+  color: #28a745;
   text-align: center;
   min-width: 2em;
   font-weight: bold;
@@ -52,5 +84,21 @@ header {
 }
 
 .red-cart {
-	color: #a5a58d;
+	color: #28a745;
+}
+
+#mp1-added{
+	color: #577590;
+}
+
+#mp2-added{
+	color: #577590;
+}
+
+#mp3-added{
+	color: #577590;
+}
+
+#mp4-added{
+	color: #577590;
 }
